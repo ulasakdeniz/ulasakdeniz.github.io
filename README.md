@@ -1,0 +1,1 @@
+Personal website of Ulaş Akdeniz, made by [Jekyll](http://jekyllrb.com/) and [poole](http://github.com/poole/lanyon), hosted by [Github Pages](http://pages.github.com).
