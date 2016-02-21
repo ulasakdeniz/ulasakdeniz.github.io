@@ -1,0 +1,242 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 180px;
+  background-color: #ccc;
+  align-items: center;
+}
+
+.eighty-percent {
+  display: flex;
+  flex-basis: 80%;
+}
+
+.resume-photo-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-basis: 30%;
+  justify-content: center;
+}
+
+.resume-photo {
+  background: url('../img/ulas.png') no-repeat;
+  background-size: 150px;
+  border-radius: 50%;
+  border: 2px solid #e4e4e4;
+  height: 150px;
+  width: 150px;
+}
+
+.head-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-name {
+  display: flex;
+  font-size: 2rem;
+  flex-basis: 70%;
+  justify-content: flex-start;
+}
+
+.resume-address {
+  display: flex;
+  flex-basis: 35%;
+  background-color: #dfdfdf;
+  height: 80%;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 5%;
+}
+
+.resume-body-container {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+
+.resume-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 80%;
+}
+
+.resume-info {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+}
+
+.links {
+  font-size: 0.8rem;
+}
+
+.education .each-row {
+  background-color: #eee;
+  padding: 4px 6px;
+  border-radius: 16px;
+  color: #333;
+}
+
+.skill {
+    background-color: #F2784B;
+}
+
+.skill .each-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill .row-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.language {
+  background-color: #8bc53e;
+}
+
+.language .row-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.row-info .left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  margin-right: 10px;
+}
+
+.row-info .right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.lang {
+  background-color: #ddd;
+  border-radius: 7px;
+  padding-left:2%;
+  color: #333;
+}
+
+.lang-back {
+  background-color: #ddd;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+.ide-back {
+  background-color: #EB974E;
+  border-radius: 7px;
+  margin-bottom: 6px;
+  padding-left: 2%;
+}
+
+.lang-inside {
+  background-color: #F5AB35;
+  border-radius: 7px;
+  padding-left:2%;
+}
+
+.fr-inside {
+  background-color: #E74C3C;
+  border-radius: 7px;
+  padding-left:2%;
+}
+
+.experience {
+  background-color: #3A539B;
+}
+
+.experience .row-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience .each-row {
+  background-color: #ddd;
+  border-radius: 7px;
+  padding-left:2%;
+  color: #333;
+}
+
+.activity {
+  background-color: #65C6BB;
+}
+
+.activity .row-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity .each-row {
+  background-color: #ddd;
+  border-radius: 7px;
+  padding-left:2%;
+  color: #333;
+}
+
+.section-title {
+  display: flex;
+  height: 100%;
+  font-size: 2rem;
+  padding: 6px 0;
+}
+
+.each-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+}
+
+.row-info {
+  display: flex;
+  flex-basis: 70%;
+}
+
+.green {
+  background-color: #52B3D9;
+}
+
+.sub-green {
+  background-color: #81CFE0;
+}
+
+.purple {
+  background-color: #F2784B;
+}
+
+.sub-purple {
+  background-color: #EB974E;
+}
