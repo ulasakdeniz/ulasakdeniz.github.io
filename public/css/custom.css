@@ -149,14 +149,14 @@ body {
 }
 
 .lang {
-  background-color: #ddd;
+  background-color: #eee;
   border-radius: 7px;
   padding-left:2%;
   color: #333;
 }
 
 .lang-back {
-  background-color: #ddd;
+  background-color: #eee;
   border-radius: 7px;
   margin-bottom: 6px;
 }
@@ -196,14 +196,14 @@ body {
 }
 
 .experience .each-row {
-  background-color: #ddd;
+  background-color: #eee;
   border-radius: 7px;
   padding-left:2%;
   color: #333;
 }
 
 .activity {
-  background-color: #65C6BB;
+  background-color: #F4D03F;
 }
 
 .activity .row-info {
@@ -212,7 +212,7 @@ body {
 }
 
 .activity .each-row {
-  background-color: #ddd;
+  background-color: #eee;
   border-radius: 7px;
   padding-left:2%;
   color: #333;
