@@ -54,20 +54,21 @@ html {
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
 body {
   color: #515151;
-  background-color: #fff;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #006699;
   text-decoration: none;
 }
 a strong {
@@ -153,10 +154,10 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: .1em .2em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: #eee;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +171,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #eee;
 }
 pre code {
   padding: 0;
@@ -181,7 +182,7 @@ pre code {
 
 /* Pygments via Jekyll */
 .highlight {
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
   border-radius: 4px;
 }
 .highlight pre {
