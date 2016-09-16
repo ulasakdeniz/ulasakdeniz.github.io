@@ -10,7 +10,7 @@ title:               Ulaş Akdeniz
 tagline:             'Personal Blog'
 description:         'Ulaş Akdeniz'
 url:                 http://ulasakdeniz.com
-baseurl:             /
+baseurl:             
 paginate:            5
 
 # About/contact
