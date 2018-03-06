@@ -5,7 +5,7 @@ html {
 
 body {
   height: 100%;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
 
 .resume-content {
@@ -18,7 +18,7 @@ body {
   flex-direction: row;
   justify-content: center;
   height: 180px;
-  background-color: #ccc;
+  background-color: #eee;
   align-items: center;
 }
 
@@ -53,7 +53,7 @@ body {
 .resume-name {
   display: flex;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
   justify-content: flex-start;
 }
 
@@ -69,21 +69,20 @@ body {
 
 .resume-body-container {
   display: flex;
-  color: #fff;
+  color: #333;
   justify-content: center;
 }
 
 .resume-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-basis: 80%;
 }
 
 .section-title {
   display: flex;
   font-size: 2rem;
-  padding: 6px 0;
+  padding: 6px 30px;
 }
 
 .resume-info {
@@ -99,6 +98,10 @@ body {
   font-size: 0.8rem;
 }
 
+.education {
+  background-color: #ccc;
+}
+
 .education .each-row {
   background-color: #eee;
   padding: 4px 6px;
@@ -107,7 +110,7 @@ body {
 }
 
 .skill {
-    background-color: #F2784B;
+    background-color: #ccc;
 }
 
 .skill .each-row {
@@ -126,7 +129,7 @@ body {
 }
 
 .language {
-  background-color: #8bc53e;
+  background-color: #ccc;
 }
 
 .language .row-info {
@@ -163,6 +166,7 @@ body {
 
 .ide-back {
   background-color: #EB974E;
+  color: #ffffff;
   border-radius: 7px;
   margin-bottom: 6px;
   padding-left: 2%;
@@ -170,24 +174,28 @@ body {
 
 .lang-inside {
   background-color: #F5AB35;
+  color: #ffffff;
   border-radius: 7px;
   padding-left:2%;
 }
 
 .fr-inside {
   background-color: #E74C3C;
+  color: #ffffff;
   border-radius: 7px;
   padding-left:2%;
 }
 
 .db-inside {
   background-color: #B25D60;
+  color: #ffffff;
   border-radius: 7px;
   padding-left:2%;
 }
 
 .experience {
-  background-color: #52B3D9;
+  background-color: #ccc;
+  padding-top: 1em;
 }
 
 .experience .row-info {
