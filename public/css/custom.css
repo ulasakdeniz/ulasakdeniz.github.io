@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 180px;
+  padding: 10px 0;
   background-color: #eee;
   align-items: center;
 }
@@ -25,6 +25,7 @@ body {
 .eighty-percent {
   display: flex;
   flex-basis: 80%;
+  align-items: center;
 }
 
 .resume-photo-container {
@@ -42,6 +43,7 @@ body {
   border: 2px solid #e4e4e4;
   height: 150px;
   width: 150px;
+  margin-right: 10px;
 }
 
 .head-info {
@@ -53,7 +55,6 @@ body {
 .resume-name {
   display: flex;
   font-size: 2rem;
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
   justify-content: flex-start;
 }
 
@@ -165,16 +166,14 @@ body {
 }
 
 .aws-back {
-  background-color: #888888;
-  color: #ffffff;
+  background-color: #eee;
   border-radius: 7px;
   margin-bottom: 6px;
   padding-left: 2%;
 }
 
 .ide-back {
-  background-color: #999999;
-  color: #ffffff;
+  background-color: #eee;
   border-radius: 7px;
   margin-bottom: 6px;
   padding-left: 2%;
@@ -266,4 +265,34 @@ body {
 
 .sub-purple {
   background-color: #EB974E;
+}
+
+@media (max-width: 500px) {
+  .resume-name {
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: flex-start;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+
+  .is-hidden-small {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .resume-photo {
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .resume-name {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: flex-start;
+  }
 }
