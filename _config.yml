@@ -9,18 +9,15 @@ permalink:           pretty
 title:               Ulaş Akdeniz
 tagline:             'Personal Blog'
 description:         'Ulaş Akdeniz'
-url:                 http://ulasakdeniz.com
-baseurl:             
+url:                 https://ulasakdeniz.com
+baseurl:         
 paginate:            5
 
 # About/contact
 author:
   name:              Ulaş Akdeniz
-  url:               http://ulasakdeniz.com
+  url:               https://ulasakdeniz.com
   email:             akdenizulas@gmail.com
 
 # Custom vars
 version:             1.0.0
-
-# Gems
-gems: [jekyll-paginate]

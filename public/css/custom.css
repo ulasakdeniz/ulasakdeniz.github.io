@@ -139,17 +139,17 @@ body {
   margin-bottom: 30px;
 }
 
-.row-info .left {
+.row-info .left, .row-info .middle {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
+  flex-basis: 33%;
   margin-right: 10px;
 }
 
 .row-info .right {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
+  flex-basis: 33%;
 }
 
 .lang {
@@ -160,9 +160,22 @@ body {
 }
 
 .lang-back {
+  position: relative;
   background-color: #eee;
   border-radius: 7px;
   margin-bottom: 6px;
+}
+
+.lang-back span {
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  height: 100%;
+  top: 0;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  width: 90px;
 }
 
 .aws-back {
@@ -180,14 +193,7 @@ body {
 }
 
 .lang-inside {
-  background-color: #F5AB35;
-  color: #ffffff;
-  border-radius: 7px;
-  padding-left:2%;
-}
-
-.fr-inside {
-  background-color: #E74C3C;
+  background-color: #e16d58;
   color: #ffffff;
   border-radius: 7px;
   padding-left:2%;
@@ -211,10 +217,18 @@ body {
 }
 
 .experience .each-row {
+  display: flex;
+  flex-direction: column;
   background-color: #eee;
   border-radius: 7px;
   padding-left:2%;
   color: #333;
+}
+
+.each-row p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .activity {
@@ -265,6 +279,17 @@ body {
 
 .sub-purple {
   background-color: #EB974E;
+}
+
+@media (max-width: 1000px) {
+  .lang-back {
+    margin-top: 20px;
+  }
+
+  .lang-back span {
+    top: -24px;
+    left: 0;
+  }
 }
 
 @media (max-width: 500px) {
